@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="foodfindder.jacob.food_finder.MainActivity">
+    <item
+        android:id="@+id/action_ingredients"
+        android:orderInCategory="1"
+        android:title="@string/action_ingredients"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_recipe"
+        android:orderInCategory="2"
+        android:title="@string/action_recipes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_recommended"
+        android:orderInCategory="3"
+        android:title="@string/action_recommended"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
