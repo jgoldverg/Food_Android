@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import foodfindder.jacob.food_finder.Ingredients_Activity;
+import foodfindder.jacob.food_finder.MainActivity;
 import foodfindder.jacob.food_finder.R;
 
 /**
@@ -44,9 +45,9 @@ public class Recipe_Act extends AppCompatActivity {
             Intent intent = new Intent(this, Ingredients_Activity.class);
             startActivity(intent);
             return true;
-        }else if(id == R.id.action_recipe)
+        }else if(id == R.id.action_main)
         {
-            Intent intent = new Intent(this, Recipe_Act.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
             return true;
         }

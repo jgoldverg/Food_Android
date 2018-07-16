@@ -4,4 +4,6 @@
     <string name="action_recipes">Recipes</string>
     <string name="action_ingredients">Ingredients</string>
     <string name="action_recommended">Recommended</string>
+    <string name="action_main">Main</string>
+    <string name="action_recipt">Recipt</string>
 </resources>

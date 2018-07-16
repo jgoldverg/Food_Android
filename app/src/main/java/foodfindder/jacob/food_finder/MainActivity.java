@@ -16,6 +16,7 @@ import java.util.concurrent.ExecutionException;
 
 import foodfindder.jacob.food_finder.ConnectTOSpring.IngredientsCollect;
 import foodfindder.jacob.food_finder.Recipe.Recipe_Act;
+import foodfindder.jacob.food_finder.Recipt.Recipt_Act;
 
 public class MainActivity extends AppCompatActivity {
     private String jsonData;
@@ -53,9 +54,9 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, Ingredients_Activity.class);
             startActivity(intent);
             return true;
-        }else if(id == R.id.action_recipe)
+        }else if(id == R.id.action_recipt)
         {
-            Intent intent = new Intent(this, Recipe_Act.class);
+            Intent intent = new Intent(this, Recipt_Act.class);
             startActivity(intent);
             return true;
         }
